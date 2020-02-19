@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>filgoal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        
+    ol{
+        list-style-type: none;
+    }
+    li{
+        float: right;
+        padding-left: 35px;
+        overflow: hidden;
+        margin-left: 25px;
+
+               
+    }
+    li a{
+        text-decoration: none;
+        color: wheat;
+        display: inline-block;
+
+    }
+    a:hover{
+        color: goldenrod;
+
+    }
+    
+    nav{
+        background-color: black;
+        color: wheat;
+        width: 100%;
+        height: 55px;
+        
+
+    }
+    .mainnav{
+        position: sticky;
+        top: 0px;
+    }
+    img{
+        
+        top: 0px;
+        
+    }
+    .link {
+      margin-top: 15px;
+    }
+    .secondlist{
+     float: left;
+     padding-left: 7px;
+    }
+    .ads{
+        width: 100%;
+        height: 50px;
+        border: 1px green solid;
+        background-color: hotpink;
+    }
+    .ads1{
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    .container{
+        background-color: gray;
+        width: 100%;
+        height: 200px;
+        border: 1px teal solid;
+
+    }
+    .smalldiv{
+        height: 120px;
+        float: left;
+        width: 25%;
+        background-color: violet;
+        border: 1px black solid;
+        box-sizing: border-box;
+        margin-top: 40px;
+        text-align: center;
+        margin-top: 40px;
+
+
+    }
+    div.arrowR{
+        height: 120px;
+        width: 30px;
+        margin-left: 0px;
+    }
+    div.arrowL{
+        height: 120px;
+        width: 30px;
+        margin-right: 0px;
+
+    }
+    div.ur{
+        margin-left: 0px;
+    }
+    div.match{
+        margin-left: 210px;
+    }
+    .fa-angle-left{
+        color: honeydew;
+        font-size: 40px;
+
+    }
+    .fa-angle-right{
+        color: honeydew;
+        font-size: 40px;
+
+    }
+    div.ameer{
+        width: 100%;
+        height: 900px;
+        box-sizing: border-box;
+
+    }
+    div.slidphoto{
+        width: 120px;
+        height: 500px;
+        background-color: white;
+        border: 2px black solid;
+        position: sticky;
+        top: 55px;
+
+    }
+    div.spr{
+        float: right;
+    }
+    div.spl{
+        float: left;
+    }
+    .amer{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .main{
+        background-color: aqua;
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(3,150px);
+        grid-gap: 10px;
+        margin-left: 127px;
+        border: 1px black solid;
+        position: absolute;
+             }
+        .one{
+            grid-area: Header;
+        }
+        .two{
+            grid-area: Menu;
+        
+        }
+        .three{
+            grid-area: Main;
+        }
+        .four{
+            grid-area: Right;
+        }
+        .five{
+            grid-area: Footer;
+        }
+        .six{
+            grid-area: New;
+        }
+        .seven{
+            grid-area: new7;
+        }
+        .main{
+            grid-template-areas: 
+            "Header Header Menu Main Right Right "
+            "Header Header Footer New Right Right"
+            "new7 new7 new7 new7 new7 new7";
+        }
+        .main div{
+            background-color: cadetblue;
+            border: 1px solid red;}
+    </style>
+</head>
+<body>
+    <div class="mainnav">
+     <nav>
+        <ol>
+            <li><a href="filgoal.com"><img src="image/icon.png" alt=""> </a></li>
+            <li class="link"><a href="">مصر <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+            </a> </li>
+            <li class="link"><a href="">اخبار <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+            </a> </li>
+            <li class="link"><a href=""> مباربات <i class="fa fa-futbol-o" aria-hidden="true"></i> </a> </li>  
+            <li class="link"><a href="">صور <i class="fa fa-camera" aria-hidden="true"></i>
+            </a> </li>
+            <li class="link"><a href="">فيديوهات <i class="fa fa-video-camera" aria-hidden="true"></i>
+            </a> </li>
+
+        </ol>
+        <ol class="secondlist">
+            <li>
+            <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li>
+            <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li>
+            <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+            </li>
+            <li>
+           <a href=""><i class="fa fa-instagram" aria-hidden="true"></i>
+           </a>     
+            </li>
+        </ol>
+     </nav>
+   </div>
+<div class="ads"> <a href=""><img src="image/ads.png" alt="" class="ads1"></a></div>
+<div class="container">
+    <div class="match">
+    <div class="arrowL smalldiv "><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+    <div class="one smalldiv ur">دوري ابطال اوروبا</div>    
+    <div class="two smalldiv">دوري ابطال افريقيا</div>
+    <div class="three smalldiv">دوري ابطال اسيا</div>
+    <div class="arrowR smalldiv "><i class="fa fa-angle-right" aria-hidden="true"></i>
+    </div>
+   </div>
+</div>
+<div class="ameer">
+<div class="slidphoto spr "> <a href=""><img src="image/ameer.png" alt="" class="amer"></a></div>
+<div class="main">
+    <div class="one">b1</div>
+    <div class="two">b2</div>
+    <div class="three">b3</div>
+    <div class="four">b4</div>
+    <div class="five">b5</div>
+    <div class="six">b6</div>
+    <div class="seven">b7</div>
+
+   </div>
+<div class="slidphoto spl"><a href=""><img src="image/ameer.png" alt="" class="amer"></a></div>
+</div>
+</body>
+</html>
